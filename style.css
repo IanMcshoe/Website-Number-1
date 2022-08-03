@@ -1,0 +1,54 @@
+section {
+    background-color: whitesmoke ;
+}
+
+* {border: px black solid;
+}
+header {
+    text-align: center;
+}
+h1 {
+    display: inline-flex
+}
+nav {
+    display:
+}
+
+nav ul {
+    padding: 0;
+    margin: 0 20px;
+    list-style-type: none;
+  }
+  nav li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  main {
+    width: 960px;
+    margin: 30px auto;
+  }
+  
+  .card {
+    border: px solid black;
+    display: block;
+    max-width: 50%;
+    margin-left:  auto;
+    margin-right: auto;
+    
+  }
+  
+  footer {
+    background: #555;
+    border-top: px solid #eee;;
+    color: ivory;
+    padding: 20px;
+    text-align: center;
+  }
+
+  div {
+    display: block;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }

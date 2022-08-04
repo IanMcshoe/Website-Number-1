@@ -3,7 +3,6 @@ let response = prompt("Favorite color");
 // console.log(response);
 
 
-
 if (response == "purple"){
     document.write("Mine too!");
     console.log("Mine too!");

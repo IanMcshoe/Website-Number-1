@@ -1,17 +1,29 @@
-section {
-    background-color: whitesmoke ;
+body {
+    background-color: rgb(215, 244, 246) ;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+section {
+    max-width: fit-content;
+    min-height: fit-content;
+}
 * {border: px black solid;
 }
 header {
     text-align: center;
+    padding: 20px;
+    color: rgb(238, 186, 54);
+    margin-right: auto;
+    margin-left: auto;
 }
 h1 {
-    display: inline-flex
-}
-nav {
-    display:
+    
+    font-family: 'Patua One', cursive;
+         text-align: center;
+         font-size: 100px;
+         margin: 60px 0 0 0;
+       
 }
 
 nav ul {
@@ -44,6 +56,8 @@ nav ul {
     color: ivory;
     padding: 20px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   div {
@@ -52,3 +66,62 @@ nav ul {
     margin-left: auto;
     margin-right: auto;
   }
+ h4 { color: rgb(255, 255, 255);
+    text-align: justify;
+    
+        border-radius: 25px;
+        background: rgb(77, 77, 77);
+        padding: 20px;
+        width: 200px;
+        height: 20px;
+        text-align: center;
+    
+        margin-left: auto;
+        margin-right: auto;
+    
+
+}
+ p { 
+    color:rgb(255, 255, 255);
+    border-radius: 25px;
+    background: rgb(77,77,77);
+    padding: 20px;
+    width: 600px;
+    height: 200px;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+
+
+}
+h5 { color:rgb(255, 255, 255);
+    border-radius: 25px;
+    background: rgb(77,77,77);
+    padding: 20px;
+    width: 600px;
+    height: 40px;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+}
+nav {
+    overflow: hidden;
+    background-color: rgb(77, 77, 77);
+  }
+nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav :hover {
+    background-color: rgb(77, 77, 77);
+    color: black;
+  }
+  img {
+    max-height: fit-content;
+  }
+  

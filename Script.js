@@ -1,18 +1,26 @@
-let response = prompt("Favorite color");
-// document.write(`Good day, ${response}, I See you've fallen into my SSN trap. I know my site looks like hot garbage, but for the life of me i can't seem to get any of my elements to line up with one another. It's causing me great pain...`)
+let response = prompt("What would you rate this site 1-5?");
+let parsed = parseInt(response)
+
+while (parsed > 5 && parsed < 5 && typeof parsed == "number") {
+    alert("1 through 5 please!");
+    response = prompt("What would you rate this site 1-5?");
+    parsed = parseInt(response);
+
+};
+
+for (let i = 0; i < parsed; i++){
+    document.write("<img src='https://cdn-icons-png.flaticon.com/512/1828/1828961.png'/>")
+};
+// if (response == "purple"){
+//     document.write("Mine too!");
+//     console.log("Mine too!");
+// }
+
+// else {
+//     let response = prompt("Wrong. Try again.");
+// document.write("Cleary you are a person of poor taste.")
 // console.log(response);
 
-
-if (response == "purple"){
-    document.write("Mine too!");
-    console.log("Mine too!");
-}
-
-else {
-    let response = prompt("Wrong. Try again.");
-document.write("Clearly you are a person of poor taste.")
-console.log(response);
-
-}
+// }
 
 
